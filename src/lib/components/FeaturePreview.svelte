@@ -12,8 +12,8 @@
         </button>
       </li>
     </ul>
-    <div class="chapter-info">
-      <h3 class="chapter-strapline italic mb-s">
+    <div class="feature-info">
+      <h3 class="feature-strapline italic mb-s">
         Understanding the ToDo List Creation
       </h3>
       <p>
@@ -31,3 +31,42 @@
     </div>
   </div>
 </section>
+
+<style>
+  .feature-preview {
+    padding: 80px 0;
+    margin-left: 12vw;
+    margin-right: 20vw;
+    max-width: 1150px;
+  }
+
+  .feature-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .feature-container ul {
+    width: 40%;
+  }
+
+  .feature-info {
+    width: 55%;
+  }
+
+  .feature-title {
+    border-bottom: 1px solid grey;
+    padding: 12px;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  .selected-feature-title {
+    background-color: black;
+    color: white;
+    border: none;
+    box-shadow:
+      0 4px 6px rgba(0, 0, 0, 0.1),
+      0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+</style>
