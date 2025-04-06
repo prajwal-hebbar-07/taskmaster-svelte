@@ -13,6 +13,7 @@
     font-size: 22px;
     text-transform: uppercase;
     transition: all 0.3s;
+    border: 1px solid white;
   }
 
   button:hover {
