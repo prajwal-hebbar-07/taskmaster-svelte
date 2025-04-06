@@ -25,15 +25,13 @@
     <h1>Will Help You</h1>
     <h1>Save Your Time</h1>
     <h1 class="mb-m">And Efforts</h1>
-    <p class="light-grey semi-bold italic">
+    <p class="light-grey semi-bold italic mb-l">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab iure dolorem
       accusantium tempora, consectetur modi non maiores! Corporis numquam ut
       iste fugit, quae temporibus reprehenderit recusandae dignissimos, iure
       totam expedita.
     </p>
-    <Button onclick={() => console.log("Clicked")}
-      >Get Premium for 10$/month</Button
-    >
+    <Button>Get Premium for 10$/month</Button>
   </div>
 </section>
 
