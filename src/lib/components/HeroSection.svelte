@@ -1,6 +1,7 @@
 <script>
   import bookCover from "$assets/book_cover.png";
   import phoneCover from "$assets/phone_cover.png";
+  import { Button } from "$components";
 </script>
 
 <section class="hero">
@@ -30,6 +31,9 @@
       iste fugit, quae temporibus reprehenderit recusandae dignissimos, iure
       totam expedita.
     </p>
+    <Button onclick={() => console.log("Clicked")}
+      >Get Premium for 10$/month</Button
+    >
   </div>
 </section>
 
