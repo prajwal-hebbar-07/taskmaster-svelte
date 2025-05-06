@@ -3,3 +3,4 @@
 export {default as HeroSection} from "./HeroSection.svelte"
 export {default as Button} from "./Button.svelte"
 export {default as FeaturePreview} from "./FeaturePreview.svelte"
+export {default as DeveloperSection} from "./DeveloperSection.svelte"
