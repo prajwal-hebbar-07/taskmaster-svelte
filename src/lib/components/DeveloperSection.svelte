@@ -6,7 +6,7 @@
   <h2 class="mb-l">About the Developer</h2>
   <div class="developer-container">
     <div class="developer-text">
-      <p>
+      <p class="mb-xs">
         Prajwal Hebbar A S is a skilled Frontend Web Application Developer with
         over three years of experience in designing and implementing responsive
         web designs. Specializing in technologies such as ReactJS, NextJS,
@@ -39,3 +39,29 @@
     <img src={ProfilePic} alt="Prajwal Hebbar A S (Developer)" />
   </div>
 </section>
+
+<style>
+  .developer-section {
+    padding: 80px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    max-width: 1280px;
+  }
+
+  .developer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .developer-container img {
+    width: 40%;
+    height: 80%;
+    border: 6px solid black;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+  }
+
+  .developer-text {
+    width: 54%;
+  }
+</style>
